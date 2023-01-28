@@ -1,0 +1,21 @@
+// COLOR PALLETAS
+$clr1:#0A102D;
+$clr2:#FFFFFF;
+$clr3:#749BFF;
+
+$linear-grad1:linear-gradient(358.68deg, #0A102D -1.47%, #0A102D 14.57%, rgba(10, 16, 45, 0) 46.22%, rgba(10, 16, 45, 0.48) 60.87%, #0A102D 75.84%);
+$radial-grad1:radial-gradient(31.65% 31.45% at 58.75% 49.96%, rgba(255, 109, 148, 0.222) 0%, rgba(0, 0, 0, 0.3) 100%);
+
+// PADDING VAR
+$layout-padding: 16px;
+
+/* screen sizes */
+$break-l: 1200px;
+$break-m: 960px;
+$break-s: 600px;
+
+
+// SCREEN SIZES WITH PADDING
+$break-l-padded: $break-l + $layout-padding * 2;
+$break-m-padded: $break-m + $layout-padding * 2;
+$break-s-padded: $break-s + $layout-padding * 2;

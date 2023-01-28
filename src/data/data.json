@@ -1,0 +1,138 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Cloud Infrastructure",
+            "child": [
+                {
+                    "id": 11,
+                    "name": "Cloud Infrastructure - Sub 1"
+                },
+                {
+                    "id": 12,
+                    "name": "Cloud Infrastructure - Sub 2"
+                },
+                {
+                    "id": 13,
+                    "name": "Cloud Infrastructure - Sub 3"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Web App"
+        },
+        {
+            "id": 3,
+            "name": "Alert Supply Chain",
+            "child": [
+                {
+                    "id": 31,
+                    "name": "Alert Supply Chain - Sub 1"
+                },
+                {
+                    "id": 32,
+                    "name": "Alert Supply Chain - Sub 2"
+                },
+                {
+                    "id": 33,
+                    "name": "Alert Supply Chain - Sub 3"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Alert Notifier"
+        },
+        {
+            "id": 5,
+            "name": "Supply Chain Security"
+        },
+        {
+            "id": 6,
+            "name": "Service",
+            "child": [
+                {
+                    "id": 61,
+                    "name": "Service - Sub 1"
+                },
+                {
+                    "id": 62,
+                    "name": "Service - Sub 2"
+                },
+                {
+                    "id": 63,
+                    "name": "Service - Sub 3"
+                }
+            ]
+        }
+    ],
+    "items": [
+        {
+            "title": "Improper Neutralization of Special Elements used in an OS Command (\"OS Command Injection\") in ng-packagr",
+            "desc": "Developer Hub is a free micro-site provided by Checkmarx that empowers the developer community.",
+            "priority": "High",
+            "rating": "8.2",
+            "cve": "CVE-2011-1473",
+            "date": "Feb 07,2021",
+            "categories": [
+                6,
+                33
+            ]
+        },
+        {
+            "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') - CVE-2019-7693",
+            "desc": "Axios Italia Axios RE 1.7.0/7.0.0 devices have XSS via the RELogOff.aspx Error_Parameters parameter. In some situations, the XSS would be on the family.axioscloud.it cloud service; however, the vendor also supports \"Sissi in Rete (con server)\" for offline operation.",
+            "priority": "Medium",
+            "rating": "5.9",
+            "cve": "CVE-2021-1473",
+            "date": "Mar 09,2020",
+            "categories": [
+                2,
+                5,
+                11
+            ]
+        },
+        {
+            "title": "Deserialization Attack\u2028in Log4j",
+            "desc": "Integrate Infrastructure as Code (IaC) security into your SDLC.",
+            "priority": "Medium",
+            "rating": "5.2",
+            "cve": "CVE-2019-1333",
+            "date": "Nov 09,2019",
+            "categories": [
+                1,
+                13,
+                4,
+                12
+            ]
+        },
+        {
+            "title": "Elements used in an OS Command",
+            "desc": "Receive immediate notification if any of your npm packages are compromised by package hijacking!",
+            "priority": "Low",
+            "rating": "2.1",
+            "cve": "CVE-4321-1473",
+            "date": "Mar 12,2018",
+            "categories": [
+                31,
+                33,
+                63
+            ]
+        },
+        {
+            "title": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') in openssl",
+            "desc": "Identify Infrastructure as code (IaC)\nvulnerabilities as you code in your IDE of choice.",
+            "priority": "High",
+            "rating": "7.9",
+            "cve": "CVE-2022-1473",
+            "date": "Oct 19,2022",
+            "categories": [
+                61,
+                62,
+                13,
+                32
+            ]
+        }
+    ]
+}

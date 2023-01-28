@@ -1,0 +1,63 @@
+/* Media queries Breakpoint mixins */
+@mixin for-mobile-layout {
+    @media (max-width: $break-s-padded) {
+      @content;
+    }
+  }
+  
+  @mixin for-narrow-layout {
+    @media (min-width: $break-s-padded) {
+      @content;
+    }
+  }
+  
+  @mixin for-normal-layout {
+    @media (min-width: $break-m-padded) {
+      @content;
+    }
+  }
+  
+  @mixin for-wide-layout {
+    @media (min-width: $break-l-padded) {
+      @content;
+    }
+  }
+
+  // Buttons
+
+@mixin btn($type: regular, $bg: $secondary-clr3, $clr: $clr4, $padding: em(24px) em(44px), $hover: darken($bg, 8%)) {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: $padding;
+    line-height: 1.25;
+    font-size: em(14px);
+    font-variation-settings: "wght" 430;
+    border: none;
+    cursor: pointer;
+  
+    transition: background-color 0.2s;
+  
+    @if $type == regular {
+      background-color: $bg;
+      color: $clr;
+      &:hover {
+        background-color: $hover;
+      }
+    } @else if $type == light {
+      background-color: $clr2;
+      color: $clr3;
+      &:hover {
+        background-color: $clr1;
+        color: $clr3;
+      }
+    } @else if $type == dark {
+      background-color: $clr3;
+      color: $clr2;
+      &:hover {
+        background-color: $clr1;
+        color: $clr3;
+      }
+    }
+  }

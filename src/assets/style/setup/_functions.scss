@@ -1,0 +1,19 @@
+@function rem($size) {
+  $remSize: $size / 16px;
+  @return ($remSize) * 1rem;
+}
+
+@function em($pixels, $context: 16px) {
+  @return ($pixels/$context) * 1em;
+}
+
+@function lh($pixels, $context: 16px) {
+  @return ($pixels/$context);
+}
+
+@function gtcLayout($width){
+  @return   
+  minmax($layout-padding, 1fr)
+  minmax(auto, $width)
+  minmax($layout-padding, 1fr);
+}
